@@ -10,11 +10,13 @@
     "lint": "eslint .",
     "format": "prettier --check \"**/*.{mjs,ts,md,json}\"",
     "push": "drizzle-kit push:mysql",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "studio": "drizzle-kit studio --verbose"
   },
   "dependencies": {
     "@planetscale/database": "^1.10.0",
-    "drizzle-orm": "^0.28.5"
+    "drizzle-orm": "^0.28.5",
+    "mysql2": "^3.6.0"
   },
   "devDependencies": {
     "@acme/eslint-config": "^0.2.0",
